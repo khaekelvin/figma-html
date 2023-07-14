@@ -39,6 +39,7 @@ body {
     width: 950px;
     height: 350px;
     padding: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 .items-2 {
@@ -47,6 +48,7 @@ body {
     height: 350px;
     padding: 10px;
     flex: 1;
+    border-radius: 0 0 0 10px;
 }
 
 .items-3 {
@@ -59,6 +61,7 @@ body {
     padding-top: 20px;
     font-size: 26px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    border-radius: 0 0 10px 0;
 }
 
 .under {
