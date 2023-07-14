@@ -151,3 +151,44 @@ body {
 h5 p {
     font-size: 25px;
 }
+
+@media screen and (max-width: 600px){
+    .items-1 {
+        background-color: var(--item1-bg-color);
+        color: #4ABEBD;
+        width: 405px;
+        height: 350px;
+        padding: 10px;
+        border-radius: 10px 10px 0 0;
+        font-size: 15px;
+    }
+.under {
+    display: flex;
+    flex-direction: column;
+}
+    /*.under {
+        width: 405px;
+        height: 300px;
+        padding: 10px;
+        border-radius: 10px 10px 0 0;
+        flex-direction: column;
+}*/
+
+    .items-2 {
+        width: 405px;
+        height: 350px;
+        padding: 10px;
+        border-radius: 0 0 0 0;
+    }
+
+    .items-3 {
+        width: 405px;
+        height: 350px;
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .btn {
+        
+    }
+}
