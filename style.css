@@ -188,7 +188,11 @@ h5 p {
         border-radius: 0 0 10px 10px;
     }
 
-    .btn {
-        
+    .join {
+        font-size: 24px;
+    }
+
+    .day {
+        font-size: 17px;
     }
 }
