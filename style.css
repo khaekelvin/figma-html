@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg-color: #E9FFFF;
+    --main-itembg-color: #E9FFFF;
+    --item1-bg-color: white;
+    --item2-bg-color: #2BB3B1;
+    --item3-bg-color: #7ACACA;
+    --green-bg-color: #C6DE51;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    font-family: sans-serif;
+}
+
+.container {
+    padding-top: 180px;
+    margin: 50px;
+    
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.item {
+    background-color: var(--main-itembg-color);
+    font-size: 35px;
+    color: #fff;    
+}
+
+.items-1 {
+    background-color: var(--item1-bg-color);
+    color: #4ABEBD;
+    width: 950px;
+    height: 350px;
+    padding: 10px;
+}
+
+.items-2 {
+    background-color: var(--item2-bg-color);
+    width: 800px;
+    height: 350px;
+    padding: 10px;
+    flex: 1;
+}
+
+.items-3 {
+    background-color: var(--item3-bg-color);
+    width: 150px;
+    height: 350px;
+    padding: 10px;
+    flex: 1;    
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 26px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.under {
+    display: flex;
+}
+
+.join {
+    color: var(--item3-bg-color);
+    padding-left: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.day {
+    padding-left: 20px;
+    color: var(--green-bg-color);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.gain {
+    color: #A1A5AE;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 28px;
+}
+
+.box2 {
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 37px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.month {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.full {
+    padding-left: 20px;
+    padding-bottom: 30px;   
+    display: flex;
+    flex-direction: column;
+}
+
+.full  {
+    font-size: 20px;
+    opacity: 90%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.per {
+    padding-left: 20px;
+    padding-top: 20px;
+    opacity: 70%;
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+    background-color: #BFDF32;
+    border: #BFDF32;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: white;
+    width: 360px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+    justify-self: center;
+}
+
+.whytext {
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 20px;
+    color: #E9FFFF;
+    line-height: 35px;
+    opacity: 80%;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+h5 p {
+    font-size: 25px;
+}
